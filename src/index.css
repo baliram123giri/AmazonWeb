@@ -33,12 +33,33 @@ code {
  }
 /* --Header--End--- */
 /* --Main--Start--- */
-.main
+.main_area
  {
    height: 7195px;
-
    background: var(--Main-color);
  }
+  /* ================== */
+      /* b_main1 */
+  /* ================== */
+     .b_main1{
+    
+       border: 1px dotted rgb(255, 0, 0);
+     }
+
+  /* ================== */
+      /* b_main2 */
+  /* ================== */
+
+  .b_main2{
+    height: 422px;
+    border: 3px dotted rgb(4, 0, 255);
+    z-index: 1000;
+    top: 45%;
+  }
+    
+  /* ================== */
+      /* b_main2 */
+  /* ================== */
 /* --Main--End--- */
 /* --Footer--Start--- */
 footer
